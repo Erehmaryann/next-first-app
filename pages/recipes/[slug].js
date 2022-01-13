@@ -85,10 +85,10 @@ export default function RecipeDetails({ recipe }) {
             margin: 0;
           }
           .info span::after {
-            content: ",";
+            content: ", ";
           }
           .info span:last-child::after {
-            content: ",";
+            content: ".";
           }
         `}
       </style>

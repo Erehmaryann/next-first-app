@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 const NotFound = () => {
     const router = useRouter();
 
+    // Redirecting
     useEffect(() => {
         setTimeout(() => {
             router.push('/');
